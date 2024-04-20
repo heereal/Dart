@@ -1,4 +1,4 @@
-void variables() {
+void main() {
   print("hello world!");
 
   // 1. Var Keyword 변수 재할당 가능
