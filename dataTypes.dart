@@ -8,7 +8,7 @@ void main() {
   num x = 12;
   x = 12.5;
 
-  // 1. Lists
+  // 1. Lists (array)
   var giveMeFive = true;
   var numbers = [
     1,
@@ -24,7 +24,7 @@ void main() {
   // 2. String Interpolation 텍스트에 변수를 추가하는 방법
   var greeting = "Hello, my name is $name and I'm ${age + 2}";
 
-  // 3. Collection For (array)
+  // 3. Collection For
   var oldFriends = ['효정', '현주'];
   var newFriends = [
     '데임',
