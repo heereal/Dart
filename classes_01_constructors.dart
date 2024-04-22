@@ -17,6 +17,7 @@ class Player2 {
   late int xp;
 
   // constructor method - class의 이름과 같아야 함
+  // 프로퍼티를 동적으로 생성하기 원한다면 constructor 생성
   Player2(String name, int xp) {
     this.name = name;
     this.xp = xp;
