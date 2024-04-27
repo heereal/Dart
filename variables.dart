@@ -35,10 +35,10 @@ void main() {
   // api로 데이터 받은 후에 변수에 할당
   data = 'something';
 
-  // 6. Constant Variables compile-time constant 생성
+  // 6. Constant Variables compile-time constant(컴파일 전에 그 value를 알 수 있음)
   // fianl과 같이 변수 재할당 불가능
   // 예를 들면 API 통신 결과로 알 수 있는 값은 컴파일 시에는 알 수 없음 -> 이 경우에는 final 혹은 var 사용
-  const API = '1234';
+  const APIKey = '1234';
 
   // final: 런타임 시점에 생성 가능 (API에서 받아온 값, 사용자 입력값)
   // const: 컴파일 시점에 바뀌지 않는 값 (상수)
